@@ -1,10 +1,79 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
+  background-color: #f0f0f0; /* Set a light gray background */
+  /*background-image: url("img/background.jpg");  Add a background image */
+  background-size: cover; /* Adjust the image size to cover the background */
+  background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333; /* Dark gray text color */
+}
+
+h2 {
+  font-size: 24px;
+  color: #666; /* Lighter gray text color */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #888; /* Even lighter gray text color */
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+body {
+  min-height: 100vh; /* Make the body take up the full viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, p, button {
+  margin: 10px 0; /* Add spacing between elements */
+}
+
+header, main, footer {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; 
+
 }
